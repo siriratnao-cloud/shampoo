@@ -1,0 +1,38 @@
+[
+  {
+    "id": "fresh-30",
+    "name": "แชมพู Fresh เล็ก",
+    "mood": "fresh",
+    "size": "30ml",
+    "price": 89,
+    "image": "images/fresh.jpg",
+    "description": "แชมพูกลิ่นสดชื่น เบาสบาย ขนาดพกพา เหมาะกับการเดินทางหรือลองใช้ครั้งแรก"
+  },
+  {
+    "id": "fresh-100",
+    "name": "แชมพู Fresh ใหญ่",
+    "mood": "fresh",
+    "size": "100ml",
+    "price": 199,
+    "image": "images/fresh.jpg",
+    "description": "แชมพูกลิ่นสดชื่น เบาสบาย ขนาดคุ้มค่าสำหรับใช้ประจำทุกวัน"
+  },
+  {
+    "id": "sweet-30",
+    "name": "แชมพู Sweet เล็ก",
+    "mood": "sweet",
+    "size": "30ml",
+    "price": 89,
+    "image": "images/sweet.jpg",
+    "description": "แชมพูกลิ่นหวานนุ่มนวล อบอุ่น ขนาดพกพา เหมาะกับการเดินทางหรือลองใช้ครั้งแรก"
+  },
+  {
+    "id": "sweet-100",
+    "name": "แชมพู Sweet ใหญ่",
+    "mood": "sweet",
+    "size": "100ml",
+    "price": 199,
+    "image": "images/sweet.jpg",
+    "description": "แชมพูกลิ่นหวานนุ่มนวล อบอุ่น ขนาดคุ้มค่าสำหรับใช้ประจำทุกวัน"
+  }
+]

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>สั่งซื้อ | Babytoy</title>
+  <meta name="description" content="กรอกข้อมูลเพื่อสั่งซื้อแชมพู Babytoy">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container">
+      <a class="brand" href="index.html">Babytoy</a>
+      <nav class="nav" aria-label="เมนูหลัก">
+        <a href="index.html">หน้าแรก</a>
+        <a href="product.html">สินค้า</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-head">
+      <div class="container container--narrow">
+        <h1>สั่งซื้อ</h1>
+        <p class="lead">กรอกข้อมูลของคุณ รายการสินค้าและราคาจะถูกเติมให้อัตโนมัติจากหน้าสินค้า</p>
+      </div>
+    </section>
+
+    <section class="page-body">
+      <div class="container container--narrow">
+        <form id="orderForm" class="order-form">
+
+          <div class="field">
+            <label for="customerName">ชื่อลูกค้า</label>
+            <input class="input" type="text" id="customerName" name="customerName" autocomplete="name" required>
+          </div>
+
+          <div class="field">
+            <label for="contact">เบอร์โทร / Line</label>
+            <input class="input" type="text" id="contact" name="contact" autocomplete="tel" required>
+          </div>
+
+          <div class="field">
+            <label for="items">รายการสินค้า</label>
+            <input class="input" type="text" id="items" name="items" required>
+          </div>
+
+          <div class="field">
+            <label for="total">จำนวนเงินรวม (บาท)</label>
+            <input class="input" type="text" id="total" name="total" inputmode="decimal" required>
+          </div>
+
+          <div class="field">
+            <label for="note">หมายเหตุ (ไม่บังคับ)</label>
+            <textarea class="textarea" id="note" name="note" rows="4"></textarea>
+          </div>
+
+          <button class="btn btn--solid btn--block" type="submit">ยืนยันสั่งซื้อ</button>
+
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <a class="brand" href="index.html">Babytoy</a>
+      <p>เปลี่ยนทุกการสระผมให้เป็นช่วงเวลาแห่งความสุข</p>
+      <div class="site-footer__bottom">&copy; 2026 Babytoy</div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
